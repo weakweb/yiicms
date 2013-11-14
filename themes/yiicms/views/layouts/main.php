@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
-<?php $baseUrl = Yii::app()->theme->baseUrl; ?>
+<?php $baseUrl = Yii::app()->theme->baseUrl;?>
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
@@ -14,7 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-  <script src="<?php echo $baseUrl . '/js/lib/require.js'; ?>"  defer async="true"  data-main="<?php echo $baseUrl . '/js/index'; ?>"></script>
+  <script src="<?php echo $baseUrl . '/js/lib/require.js'; ?>"  defer async="true"  data-main="<?php echo $baseUrl . '/js/index.js'; ?>"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 

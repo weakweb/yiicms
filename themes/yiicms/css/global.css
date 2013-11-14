@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Verdana, 微软雅黑, 苹果丽细宋;
+  font-size: 12px;
+  height: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+.content-center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.table-fixed {
+  table-layout: fixed;
+}
+
+.header {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f3f3f3), to(#e5e5e5) );
+  background: -moz-linear-gradient(top, #f3f3f3, #e5e5e5);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Use to truncate the text */
+.text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+
+.alert-message {
+  left: 20%;
+  padding: 15px 5px;
+  position: fixed;
+  text-align: center;
+  width: 60%;
+  z-index: 1999;
+}
+
+.footer {
+  margin: 0 auto;
+}
+
+.copyright {
+  padding: 10px 0;
+  width: 100%;
+  border-top: 1px solid #8C8C8C;
+}
